@@ -1,0 +1,101 @@
+// JSILc v0.8.18047
+// Build took 0007,04 second(s).
+// The following configuration was used when translating 'bin\Debug\App.exe':
+{
+	"ContributingPaths":["C:\\Users\\mch\\Documents\\_DEV\\JSIL-Orig\\JSIL\\bin\\defaults.jsilconfig"],
+	"Path":"C:\\Users\\mch\\Documents\\_DEV\\JSIL-Orig\\JSIL\\bin",
+	"SolutionBuilder":{
+		"Configuration":null,
+		"Platform":null,
+		"Target":null,
+		"LogVerbosity":null,
+		"ExtraOutputs":[]
+	},
+	"Quiet":null,
+	"AutoLoadConfigFiles":null,
+	"UseLocalProxies":null,
+	"ReuseTypeInfoAcrossAssemblies":null,
+	"ProxyWarnings":false,
+	"OutputDirectory":"C:\\Users\\mch\\Documents\\_DEV\\Nicetries\\JSIL\\JsilComponents\\App\\bin\\Debug\\Scripts",
+	"OutputFileName":null,
+	"FileOutputDirectory":null,
+	"Profile":"Default",
+	"ProfileSettings": {
+		"OverwriteExistingContent":true,
+		"ContentOutputDirectory":"%outputdirectory%/Content"
+	},
+	"AnalyzerSettings":{},
+	"CustomVariables":{},
+	"ApplyDefaults":null,
+	"IncludeDependencies":null,
+	"UseSymbols":null,
+	"UseThreads":null,
+	"UseDefaultProxies":null,
+	"GenerateSkeletonsForStubbedAssemblies":null,
+	"GenerateContentManifest":null,
+	"RunBugChecks":null,
+	"TuneGarbageCollection":null,
+	"FilenameEscapeRegex":null,
+	"AssemblyCollectionName":null,
+	"EmitterFactoryName":null,
+	"BuildSourceMap":null,
+	"FrameworkVersion":null,
+	"Assemblies":
+	{
+		"TranslateAdditional":[],
+		"Ignored": [
+			"Microsoft\\.VisualC,",
+			"Accessibility,",
+			"SMDiagnostics,",
+			"System\\.EnterpriseServices,",
+			"System\\.Security,",
+			"System\\.Runtime\\.Serialization\\.Formatters\\.Soap,",
+			"System\\.Runtime\\.DurableInstancing,",
+			"System\\.Data\\.SqlXml,","JSIL\\.Meta,"],
+		"Stubbed":[
+			"^mscorlib,",
+			"^System,",
+			"^System\\.(.+),",
+			"^Microsoft\\.(.+),",
+			"FSharp.Core,"],
+		"Proxies":[],
+		"Redirects":{}
+	},
+	"CodeGenerator":{ 
+		"EliminateStructCopies":null,
+		"SimplifyOperators":null,
+		"SimplifyLoops":null,
+		"EliminateTemporaries":null,
+		"EliminateRedundantControlFlow":null,
+		"CacheMethodSignatures":null,
+		"CacheGenericMethodSignatures":null,
+		"CacheTypeExpressions":null,
+		"CacheBaseMethodHandles":null,
+		"EliminatePointlessFinallyBlocks":null,
+		"PreferAccessorMethods":null,
+		"HintIntegerArithmetic":null,
+		"EnableThreadedTransforms":null,
+		"FreezeImmutableObjects":null,
+		"EnableUnsafeCode":null,
+		"HoistAllocations":null,
+		"HintDoubleArithmetic":null,
+		"AutoGenerateEventAccessorsInSkeletons":null,
+		"AggressivelyUseElementProxies":null,
+		"EmitAllParameterNames":null,
+		"StripUnusedLoopNames":null,
+		"IntroduceCharCasts":null,
+		"IntroduceEnumCasts":null,
+		"EmulateInt64":null,
+		"DecomposeAllMutationOperators":null
+	}
+}
+// The configuration was generated from the following configuration files:
+C:\Users\mch\Documents\_DEV\JSIL-Orig\JSIL\bin\defaults.jsilconfig
+// The following outputs were produced:
+DaLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.js
+App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.js
+mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js
+mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js
+// The following method(s) were ignored due to untranslatable variables:
+// Miscellaneous log output follows:
+

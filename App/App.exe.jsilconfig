@@ -1,0 +1,13 @@
+﻿{
+  "OutputDirectory": "%configdirectory%",
+  "ProxyWarnings": false,
+  "Assemblies": {
+    "Ignored": [
+      "^mscorlib"
+    ]
+  },
+  "ProfileSettings": {
+    "OverwriteExistingContent": true,
+    "ContentOutputDirectory": "%outputdirectory%/Content"
+  }
+}
