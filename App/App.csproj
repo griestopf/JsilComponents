@@ -37,6 +37,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.jsilconfig">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
@@ -54,7 +57,7 @@
     <PostBuildEvent>SET JSILROOT=..\..\..\..\JSIL-Orig\JSIL
 cd $(ProjectDir)
 %25JSILROOT%25\bin\JSILc.exe  -o=$(OutDir)Scripts $(OutDir)App.exe
-xcopy /S /Y %25JSILROOT%25\JSIL\Libraries  bin\Debug\Libraries\
+xcopy /S /Y %25JSILROOT%25\Libraries bin\Debug\Libraries\
 xcopy /y App.html $(OutDir)</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
