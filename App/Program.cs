@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using DaLibrary;
 using static System.Console;
@@ -13,12 +16,12 @@ namespace App
 
     class Program
     {
-        static void ReflectIt(Type o)
+        static IEnumerable<string> ReflectIt(Type o)
         {
             WriteLine(o.Name + " contains:");
             foreach (MemberInfo m in o.GetMembers())
             {
-                WriteLine(m.Name);
+                yield return m.Name;
             }
         }
 
@@ -26,7 +29,12 @@ namespace App
         {
             WriteLine("Hello JSIL");
 
-            ReflectIt(new ReflectMe().GetType());
+            List<string> members = new List<string>(ReflectIt(new ReflectMe().GetType()).ToArray());
+
+            foreach (var member in members)
+            {
+                WriteLine(member);
+            }
 
             DaClass daClass = new DaClass { I = 42, OutputFunc = (s) => { Console.WriteLine(s);}};
             daClass.DoSometing();

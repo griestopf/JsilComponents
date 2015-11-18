@@ -3,7 +3,10 @@
   "ProxyWarnings": false,
   "Assemblies": {
     "Ignored": [
-      "^mscorlib"
+      "^mscorlib",
+      "^System,",
+      "^System\\.(.+),",
+      "^Microsoft\\.(.+),"
     ]
   },
   "ProfileSettings": {
